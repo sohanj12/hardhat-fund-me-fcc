@@ -27,4 +27,9 @@ module.exports = {
         coinmarketcap: COINMARKETCAP_API_KEY,
         token: "ETH",
     },
+    networks: {
+        hardhat: {
+            chainId: 31337,
+        },
+    },
 }
